@@ -1,0 +1,1937 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>شركة مجال الإنجاز للأعمال المتقدمة | Majal Al Enjaz Advanced Works Co.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles-01.css">
+  </head>
+  <body>
+    <!-- ═══════════════ NAV ═══════════════ -->
+    <nav>
+      <a class="nav-logo" href="#">
+        <!-- LOGO: transparent background SVG replica -->
+        <img
+          src="assets/images/image-001-79697f4c2e92.png"
+          alt="Majal Al Enjaz"
+          class="logo-svg"
+          style="height: 52px; width: auto; object-fit: contain"
+        />
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about" data-ar>من نحن</a><a href="#about" data-en>About</a></li>
+        <li><a href="#services" data-ar>خدماتنا</a><a href="#services" data-en>Services</a></li>
+        <li><a href="#projects" data-ar>مشاريعنا</a><a href="#projects" data-en>Projects</a></li>
+        <li><a href="#team" data-ar>فريقنا</a><a href="#team" data-en>Team</a></li>
+        <li><a href="#contact" data-ar>تواصل معنا</a><a href="#contact" data-en>Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="lang-btn" id="langToggle" onclick="toggleLang()">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path
+              d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+            />
+          </svg>
+          <span id="langLabel">English</span>
+        </button>
+        <a class="btn-primary" href="#contact">
+          <span data-ar>تواصل معنا</span>
+          <span data-en>Get in Touch</span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          height="100%"
+          style="position: absolute; inset: 0; z-index: 1"
+          preserveAspectRatio="xMidYMid slice"
+          viewBox="0 0 1440 860"
+        >
+          <defs>
+            <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="6" stdDeviation="18" flood-color="rgba(100,90,85,0.10)" />
+            </filter>
+            <filter id="soft-shadow-sm" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="rgba(100,90,85,0.08)" />
+            </filter>
+            <linearGradient id="rect-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#eae8e4" />
+              <stop offset="100%" stop-color="#dedad4" />
+            </linearGradient>
+            <linearGradient id="rect-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#e4e1dc" />
+              <stop offset="100%" stop-color="#d8d4ce" />
+            </linearGradient>
+            <linearGradient id="rect-grad-3" x1="100%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#eeece8" />
+              <stop offset="100%" stop-color="#e2deda" />
+            </linearGradient>
+            <linearGradient id="rect-grad-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="rgba(139,100,80,0.18)" />
+              <stop offset="100%" stop-color="rgba(139,100,80,0.04)" />
+            </linearGradient>
+          </defs>
+
+          <!-- Large background slab — far right -->
+          <rect
+            x="820"
+            y="-120"
+            width="920"
+            height="1100"
+            transform="rotate(-14 1280 430)"
+            fill="url(#rect-grad-1)"
+            filter="url(#soft-shadow)"
+            rx="4"
+          />
+
+          <!-- Second large slab — overlapping -->
+          <rect
+            x="960"
+            y="-80"
+            width="640"
+            height="980"
+            transform="rotate(-14 1280 430)"
+            fill="url(#rect-grad-2)"
+            filter="url(#soft-shadow)"
+            rx="4"
+          />
+
+          <!-- Thin tall accent slab -->
+          <rect
+            x="1200"
+            y="-60"
+            width="160"
+            height="1020"
+            transform="rotate(-14 1280 430)"
+            fill="url(#rect-grad-3)"
+            filter="url(#soft-shadow-sm)"
+            rx="3"
+          />
+
+          <!-- Bottom-left grounding slab -->
+          <rect
+            x="-180"
+            y="580"
+            width="780"
+            height="420"
+            transform="rotate(-14 200 750)"
+            fill="#e8e5e0"
+            filter="url(#soft-shadow-sm)"
+            rx="4"
+            opacity="0.7"
+          />
+
+          <!-- Hairline stroke rectangles — architectural detail -->
+          <rect
+            x="830"
+            y="-110"
+            width="910"
+            height="1080"
+            transform="rotate(-14 1280 430)"
+            fill="none"
+            stroke="url(#rect-grad-stroke)"
+            stroke-width="1"
+            rx="4"
+          />
+          <rect
+            x="972"
+            y="-70"
+            width="626"
+            height="960"
+            transform="rotate(-14 1280 430)"
+            fill="none"
+            stroke="rgba(139,100,80,0.10)"
+            stroke-width="0.75"
+            rx="3"
+          />
+
+          <!-- Small accent square — top right corner detail -->
+          <rect
+            x="1310"
+            y="-40"
+            width="90"
+            height="90"
+            transform="rotate(-14 1355 5)"
+            fill="none"
+            stroke="rgba(139,100,80,0.22)"
+            stroke-width="1.5"
+            rx="2"
+          />
+
+          <!-- Thin horizontal rule — subtle grounding line -->
+          <line
+            x1="0"
+            y1="858"
+            x2="1440"
+            y2="858"
+            stroke="rgba(139,100,80,0.08)"
+            stroke-width="1"
+          />
+        </svg>
+      </div>
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span data-ar>شركة مجال الإنجاز للأعمال المتقدمة</span>
+          <span data-en>Majal Al Enjaz Advanced Works Co.</span>
+        </div>
+        <h1>
+          <span data-ar
+            >نبني مستقبل<br /><span style="color: var(--orange)">الإنجاز</span>
+            بخبرة<br />متقدمة</span
+          >
+          <span data-en
+            >Building Tomorrow<br />With <span style="color: var(--orange)">Advanced</span
+            ><br />Excellence</span
+          >
+        </h1>
+        <p>
+          <span data-ar
+            >شركة رائدة في الأعمال الإنشائية المتقدمة وترميم المواقع التراثية. موثوق بها من قِبل
+            أكثر من 20 جهة حكومية سعودية، بخبرة تمتد لأكثر من 21 عاماً وأعمال في 8 مواقع تراث عالمي
+            معتمدة من اليونسكو.</span
+          >
+          <span data-en
+            >A leading company in advanced construction works and heritage site restoration. Trusted
+            by over 20 Saudi government entities with 21+ years of experience and works at 8 UNESCO
+            World Heritage Sites.</span
+          >
+        </p>
+        <div class="hero-btns">
+          <a href="#services" class="btn-primary">
+            <span data-ar>اكتشف خدماتنا</span>
+            <span data-en>Explore Our Services</span>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#projects" class="btn-ghost">
+            <span data-ar>مشاريعنا</span>
+            <span data-en>Our Projects</span>
+          </a>
+        </div>
+        <div class="stats-bar">
+          <div class="stat-item">
+            <div class="stat-num">+21</div>
+            <div class="stat-label">
+              <span data-ar>سنة خبرة</span><span data-en>Years of Experience</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">+160</div>
+            <div class="stat-label">
+              <span data-ar>مشروع منجز</span><span data-en>Completed Projects</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">+20</div>
+            <div class="stat-label">
+              <span data-ar>جهة حكومية</span><span data-en>Government Entities</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">8</div>
+            <div class="stat-label">
+              <span data-ar>مواقع تراث يونسكو</span><span data-en>UNESCO Heritage Sites</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section id="about">
+      <div class="section-label"><span data-ar>من نحن</span><span data-en>About Us</span></div>
+      <h2 class="section-title">
+        <span data-ar>مجال الإنجاز للأعمال المتقدمة</span>
+        <span data-en>Majal Al-Enjaz for Advanced Works</span>
+      </h2>
+      <p class="section-sub">
+        <span data-ar
+          >تُعدّ شركة مجال الإنجاز للأعمال المتقدمة من الشركات الرائدة متعددة التخصصات، تجمع بين
+          الخبرات المتراكمة والرؤية المستقبلية الطموحة مما يعزز قدرتها على تنفيذ مشاريع نوعية وفق
+          أعلى المعايير.</span
+        >
+        <span data-en
+          >Majal Al-Enjaz for Advanced Works is recognized as one of the leading multidisciplinary
+          companies, combining accumulated expertise with a forward-looking vision, enhancing its
+          capability to execute specialized projects to the highest standards.</span
+        >
+      </p>
+      <div class="about-grid">
+        <div>
+          <p
+            style="
+              color: var(--text-muted);
+              font-size: 15px;
+              line-height: 1.9;
+              margin-bottom: 1.5rem;
+            "
+          >
+            <span data-ar
+              >تعمل الشركة في مجالات متنوعة تشمل: تشييد المباني والمستشفيات والمنشآت المتخصصة،
+              وترميم وصيانة المواقع التراثية، والدراسات البيئية والأبحاث العلمية، والتصوير الجوي
+              والتصوير ثالثي الأبعاد، واكتشاف وتنقيب وتوثيق الآثار، والمسح البحري بالغواصات المتحكم
+              بها عن بُعد، إضافةً إلى خدمات الأمن الصناعي وبرامج التدريب وبناء القدرات. موثوق بها من
+              قِبل أكثر من 20 جهة حكومية سعودية وبخبرة تمتد لأكثر من 21 عاماً.</span
+            >
+            <span data-en
+              >The company operates across a diverse portfolio spanning construction of buildings,
+              hospitals, and specialized facilities, restoration and conservation of heritage sites,
+              environmental studies, scientific research, aerial photography and 3D imaging,
+              discovery and documentation of antiquities, advanced marine surveying with remotely
+              operated submarines, industrial security services, and specialized training programs.
+              Trusted by over 20 Saudi government entities with 21+ years of experience.</span
+            >
+          </p>
+          <ul class="value-list">
+            <li>
+              <span class="check"
+                ><svg viewBox="0 0 12 12" fill="none">
+                  <polyline
+                    points="2,6 5,9 10,3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+              <span data-ar>خبرة في 8 مواقع تراث عالمي معتمدة من اليونسكو</span
+              ><span data-en>Experience in 8 UNESCO World Heritage Sites</span>
+            </li>
+            <li>
+              <span class="check"
+                ><svg viewBox="0 0 12 12" fill="none">
+                  <polyline
+                    points="2,6 5,9 10,3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+              <span data-ar>أكثر من 700 كادر متخصص في الهندسة والآثار والتراث</span
+              ><span data-en>Over 700 specialists in engineering, archaeology and heritage</span>
+            </li>
+            <li>
+              <span class="check"
+                ><svg viewBox="0 0 12 12" fill="none">
+                  <polyline
+                    points="2,6 5,9 10,3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+              <span data-ar>أكثر من 1.07 مليار ريال قيمة المشاريع المنفذة</span
+              ><span data-en>Over 1.07 billion SAR in total project value</span>
+            </li>
+            <li>
+              <span class="check"
+                ><svg viewBox="0 0 12 12" fill="none">
+                  <polyline
+                    points="2,6 5,9 10,3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+              <span data-ar>تغطية شاملة لجميع مناطق المملكة العربية السعودية</span
+              ><span data-en>Comprehensive coverage across all regions of Saudi Arabia</span>
+            </li>
+          </ul>
+        </div>
+        <div class="about-visual">
+          <div class="about-icon-grid">
+            <div class="about-icon-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.5">
+                <rect x="2" y="3" width="20" height="14" rx="2" />
+                <path d="M8 21h8M12 17v4" />
+              </svg>
+              <span data-ar>تقنية</span><span data-en>Technology</span>
+            </div>
+            <div class="about-icon-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.5">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                <polyline points="9 22 9 12 15 12 15 22" />
+              </svg>
+              <span data-ar>إنشاء</span><span data-en>Building</span>
+            </div>
+            <div class="about-icon-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 8v4l3 3" />
+              </svg>
+              <span data-ar>دقة</span><span data-en>Precision</span>
+            </div>
+            <div class="about-icon-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.5">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+              <span data-ar>فريق</span><span data-en>Team</span>
+            </div>
+            <div class="about-icon-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.5">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+              <span data-ar>كفاءة</span><span data-en>Efficiency</span>
+            </div>
+            <div class="about-icon-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.5">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+              <span data-ar>جودة</span><span data-en>Quality</span>
+            </div>
+          </div>
+          <div
+            style="
+              margin-top: 1.5rem;
+              padding: 1.25rem;
+              background: rgba(139, 26, 26, 0.06);
+              border-radius: 10px;
+              border: 0.5px solid rgba(139, 26, 26, 0.12);
+            "
+          >
+            <div style="font-size: 13px; color: var(--text-muted); line-height: 1.7">
+              <span data-ar>🇸🇦 شركة سعودية 100% — نفخر بالمساهمة في تحقيق رؤية 2030</span>
+              <span data-en>🇸🇦 100% Saudi Company — proud to contribute to Vision 2030</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ SERVICES ═══════════════ -->
+    <section id="services">
+      <div class="section-label"><span data-ar>خدماتنا</span><span data-en>Our Services</span></div>
+      <h2 class="section-title">
+        <span data-ar>ما نقدمه لكم</span>
+        <span data-en>What We Offer</span>
+      </h2>
+      <p class="section-sub">
+        <span data-ar
+          >نقدم مجموعة متكاملة من الخدمات المتقدمة التي تغطي احتياجاتكم من الألف إلى الياء.</span
+        >
+        <span data-en
+          >We offer a comprehensive range of advanced services that cover your needs from start to
+          finish.</span
+        >
+      </p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <h3><span data-ar>الهندسة الإنشائية</span><span data-en>Structural Engineering</span></h3>
+          <p>
+            <span data-ar
+              >حلول هندسية وإنشائية متكاملة تشمل أعمال الهدم والأعمال المدنية وأنظمة الميكانيكا
+              والكهرباء والسباكة (MEP) وأعمال التشطيبات وتطوير المواقع.</span
+            ><span data-en
+              >Integrated engineering and construction solutions including demolition, civil works,
+              MEP systems, finishing works, and site development.</span
+            >
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M9 3v18M15 3v18M3 9h18M3 15h18" />
+            </svg>
+          </div>
+          <h3><span data-ar>العمارة والتصميم</span><span data-en>Architecture & Design</span></h3>
+          <p>
+            <span data-ar
+              >خدمات متكاملة في العمارة والتصميم تشمل التصميم المفاهيمي والتخطيط والمواصفات
+              الإنشائية التفصيلية واختيار المواد وإعداد وثائق البناء وفق الأنظمة المعتمدة.</span
+            ><span data-en
+              >Comprehensive architecture and design services including conceptual design, planning,
+              detailed specifications, material selection, FF&E procurement, and construction
+              documents per approved standards.</span
+            >
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3><span data-ar>التراث العمراني</span><span data-en>Urban Heritage</span></h3>
+          <p>
+            <span data-ar
+              >توظيف تقنيات الحفظ للحفاظ على التراث المعماري وتعزيز استدامته، وتشمل خدماتنا التكامل
+              والمحاكاة والابتكار وإعادة البناء وإعادة التأهيل والترميم.</span
+            ><span data-en
+              >Conservation techniques to preserve architectural heritage, including consolidation,
+              simulation, innovation, reconstruction, rehabilitation, and restoration of heritage
+              buildings.</span
+            >
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 8v4l3 3" />
+            </svg>
+          </div>
+          <h3><span data-ar>الاستشارات التراثية</span><span data-en>Heritage Consultancy</span></h3>
+          <p>
+            <span data-ar
+              >خدمات استشارية متخصصة في مجال التراث تشمل التوثيق الهندسي والدراسات الأثرية والتصميم
+              المعماري ومنهجيات الصون واختبارات المواد للمباني التراثية.</span
+            ><span data-en
+              >Specialized consultancy in the heritage field including engineering documentation,
+              archaeological studies, architectural design, conservation programs, and material
+              testing for heritage buildings.</span
+            >
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <path
+                d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"
+              />
+            </svg>
+          </div>
+          <h3><span data-ar>البحث العلمي</span><span data-en>Scientific Research</span></h3>
+          <p>
+            <span data-ar
+              >دراسات وأبحاث لجمع ورصد وتحليل الدراسات الأثرية، إلى جانب الخدمات الاستشارية والدعم
+              العلمي للدراسات المتخصصة في الآثار والتراث الوطني.</span
+            ><span data-en
+              >Studies and research for collection, monitoring, and analysis of archaeological data,
+              along with consultancy and scientific support for specialized studies in archaeology
+              and national heritage.</span
+            >
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
+          </div>
+          <h3>
+            <span data-ar>المسح الأثري والتنقيب والتوثيق</span
+            ><span data-en>Archaeological Survey, Excavation & Documentation</span>
+          </h3>
+          <p>
+            <span data-ar
+              >أعمال المسح الأثري والتنقيب والتوثيق الشامل باستخدام تقنيات متقدمة مثل GNSS والتصوير
+              الجوي بالطائرات المسيّرة والتوثيق ثالثي الأبعاد والمسح بالليزر.</span
+            ><span data-en
+              >Archaeological survey, excavation, and documentation using advanced technologies
+              including GNSS, drone aerial imaging, 3D documentation, and laser scanning, in
+              collaboration with leading international heritage laboratories.</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PROJECTS ═══════════════ -->
+    <section id="projects" style="background: var(--bg)">
+      <div class="section-label">
+        <span data-ar>مشاريعنا</span><span data-en>Our Projects</span>
+      </div>
+      <h2 class="section-title">
+        <span data-ar>أعمالنا الميدانية</span>
+        <span data-en>Our Work on the Ground</span>
+      </h2>
+      <p class="section-sub">
+        <span data-ar>من مواقع التراث العالمي إلى المنشآت الحيوية — نُنجز بمعايير استثنائية.</span>
+        <span data-en
+          >From UNESCO World Heritage Sites to critical facilities — we deliver to exceptional
+          standards.</span
+        >
+      </p>
+
+      <!-- Tabs -->
+      <div class="projects-tabs">
+        <button class="ptab active" onclick="switchTab('unesco', this)">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path
+              d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+            />
+          </svg>
+          <span data-ar>مواقع اليونسكو</span><span data-en>UNESCO Sites</span>
+          <span class="ptab-badge">8</span>
+        </button>
+        <button class="ptab" onclick="switchTab('works', this)">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+          >
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          </svg>
+          <span data-ar>أبرز أعمالنا</span><span data-en>Featured Works</span>
+          <span class="ptab-badge"></span>
+        </button>
+      </div>
+
+      <!-- UNESCO Panel -->
+      <div class="ptab-panel active" id="panel-unesco">
+        <div class="unesco-grid">
+          <div class="unesco-card featured">
+            <img
+              src="assets/images/image-002-2b08e921958f.png"
+              alt="موقع الحِجر – العُلا"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3>
+                <span data-ar>موقع الحِجر – العُلا</span
+                ><span data-en>Al-Hijr (Hegra) — Al-Ula</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="unesco-card">
+            <img
+              src="assets/images/image-003-63d9464698db.png"
+              alt="حي الطريف التاريخي"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3>
+                <span data-ar>حي الطريف التاريخي</span
+                ><span data-en>Historic Diriyah — At-Turaif</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="unesco-card">
+            <img
+              src="assets/images/image-004-7c94f24ee946.png"
+              alt="عروق بني معارض"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3><span data-ar>عروق بني معارض</span><span data-en>Uruq Bani Ma'arid</span></h3>
+            </div>
+          </div>
+
+          <div class="unesco-card">
+            <img
+              src="assets/images/image-005-1cbb1b1fa715.png"
+              alt="واحة الأحساء"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3><span data-ar>واحة الأحساء</span><span data-en>Al-Ahsa Oasis</span></h3>
+            </div>
+          </div>
+
+          <div class="unesco-card">
+            <img
+              src="assets/images/image-006-71325ea762d4.png"
+              alt="موقع حِمى الثقافي"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3><span data-ar>موقع حِمى الثقافي</span><span data-en>Hima Cultural Area</span></h3>
+            </div>
+          </div>
+
+          <div class="unesco-card">
+            <img
+              src="assets/images/image-007-c2780a54df1e.png"
+              alt="منطقة الفاو الأثرية"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3>
+                <span data-ar>منطقة الفاو الأثرية</span
+                ><span data-en>Al-Faw Archaeological Area</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="unesco-card">
+            <img
+              src="assets/images/image-008-461a881c5666.png"
+              alt="الفنون الصخرية بحائل"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3>
+                <span data-ar>الفنون الصخرية بحائل</span
+                ><span data-en>Rock Art in Hail Region</span>
+              </h3>
+            </div>
+          </div>
+
+          <div class="unesco-card">
+            <img
+              src="assets/images/image-009-397a9cf60b11.png"
+              alt="جدة التاريخية"
+            />
+            <div class="unesco-overlay"></div>
+            <div class="unesco-card-body">
+              <span class="unesco-badge">
+                <svg
+                  width="9"
+                  height="9"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+                UNESCO
+              </span>
+              <h3><span data-ar>جدة التاريخية</span><span data-en>Historic Jeddah</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Works Panel -->
+      <div class="ptab-panel" id="panel-works">
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع الهندسة الإنشائية والمعمارية</span>
+            <span data-en>Structural & Architectural Engineering Projects</span>
+          </h3>
+          <div class="works-grid">
+            <div class="work-card">
+              <div class="work-thumb" style="height: 200px; position: relative; overflow: hidden">
+                <img
+                  src="assets/images/image-010-aa8586cc8312.png"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                  alt="مقر أمن المنشآت بمحطات التحلية"
+                />
+              </div>
+              <div class="work-body">
+                <h3>إنشاء (10) مقرات لأمن المنشآت بمحطات التحلية</h3>
+                <p style="margin-bottom: 0.75rem">الموقع: المنطقة الجنوبية</p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"
+                    >الجهة المالكة:</span
+                  >
+                  <img
+                    src="assets/images/image-011-2f0dbc80ea21.svg"
+                    alt="هيئة تحلية المياه"
+                    style="height: 64px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb" style="height: 200px; position: relative; overflow: hidden">
+                <img
+                  src="assets/images/image-012-85d5144cc8dc.png"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                  alt="مبنى إداري متعدد الطوابق بنادي ضباط قوى الأمن"
+                />
+              </div>
+              <div class="work-body">
+                <h3>
+                  <span data-ar
+                    >تنفيذ أعمال إستكمال مبنى إداري متعدد الطوابق بنادي ضباط قوى الأمن</span
+                  ><span data-en
+                    >Completion of Multi-Story Administrative Building at Security Forces Officers
+                    Club</span
+                  >
+                </h3>
+                <p style="margin-bottom: 0.75rem">
+                  <span data-ar>الموقع: الرياض</span><span data-en>Location: Riyadh</span>
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"
+                    ><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span
+                  >
+                  <img
+                    src="assets/images/image-013-7a704cf6bda5.svg"
+                    alt="وزارة الداخلية"
+                    style="height: 48px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb" style="height: 200px; position: relative; overflow: hidden">
+                <img
+                  src="assets/images/image-014-5f5e8eb283f1.png"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                  alt="إنشاء مبنى التطوير"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>إنشاء مبنى التطوير</span><span data-en>Construction of Development Building</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: منطقة القصيم</span><span data-en>Location: Al-Qassim Region</span></p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img
+                    src="assets/images/image-015-718b26522694.svg"
+                    alt="وزارة البيئة والمياه والزراعة"
+                    style="height: 54px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع ترميم المباني التراثية</span>
+            <span data-en>Heritage Building Restoration Projects</span>
+          </h3>
+          <div class="works-grid">
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-016-fe60582e5208.png"
+                  alt="قصر المصمك"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3>
+                  <span data-ar>مشروع ترميم وتأهيل قصر المصمك</span
+                  ><span data-en>Al-Masmak Palace Restoration &amp; Rehabilitation Project</span>
+                </h3>
+                <p style="margin-bottom: 0.75rem">
+                  <span data-ar>الموقع: الرياض</span><span data-en>Location: Riyadh</span>
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"
+                    ><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span
+                  >
+                  <img
+                    src="assets/images/image-017-25ebcb93db00.svg"
+                    alt="وزارة الثقافة"
+                    style="height: 40px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-018-c2da066c344f.png"
+                  alt="منزل حسن البابطين"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3>
+                  <span data-ar>مشروع ترميم وتأهيل منزل حسن البابطين</span
+                  ><span data-en
+                    >Hassan Al-Babtain House Restoration &amp; Rehabilitation Project</span
+                  >
+                </h3>
+                <p style="margin-bottom: 0.75rem">
+                  <span data-ar>الموقع: ينبع - المدينة المنورة</span
+                  ><span data-en>Location: Yanbu - Madinah Region</span>
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"
+                    ><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span
+                  >
+                  <img
+                    src="assets/images/image-019-49b2afcf3cbf.svg"
+                    alt="وزارة السياحة"
+                    style="height: 44px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-020-739b69651de6.png"
+                  alt="ترميم وتأهيل قصر الملك عبدالعزيز بقبة"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3>
+                  <span data-ar>ترميم وتأهيل قصر الملك عبدالعزيز بقبة</span
+                  ><span data-en>Restoration and Rehabilitation of King Abdulaziz Palace in Qibah</span>
+                </h3>
+                <p style="margin-bottom: 0.75rem">
+                  <span data-ar>المنطقة: القصيم</span><span data-en>Location: Al-Qassim</span>
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600">
+                    <span data-ar>الجهة المالكة:</span><span data-en>Owner:</span>
+                  </span>
+                  <img
+                    src="assets/images/image-017-25ebcb93db00.svg"
+                    alt="وزارة الثقافة"
+                    style="height: 44px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع التسوير والحماية واللوحات التعريفية</span>
+            <span data-en>Fencing, Protection & Signage Projects</span>
+          </h3>
+          <div class="works-grid">
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-021-c26dc37c9519.png"
+                  alt="تسوير قرية المفتاحة"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="work-body">
+                <h3>
+                  <span data-ar>تسوير قرية المفتاحة</span
+                  ><span data-en>Al-Miftaha Village Fencing</span>
+                </h3>
+                <p style="margin-bottom: 0.75rem">
+                  <span data-ar>الموقع: أبها</span><span data-en>Location: Abha</span>
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"
+                    ><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span
+                  >
+                  <img
+                    src="assets/images/image-017-25ebcb93db00.svg"
+                    alt="وزارة الثقافة"
+                    style="height: 40px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="work-card">
+                            <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-022-26627238a21d.jpg"
+                  alt="تسوير وتبتير حدود المواقع الأثرية"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="work-body">
+                <h3>
+                  <span data-ar>تسوير وتبتير حدود المواقع الأثرية</span
+                  ><span data-en>Fencing & Demarcation of Archaeological Sites</span>
+                </h3>
+                <p style="margin-bottom: 0.75rem">
+                  <span data-ar>الموقع: المنطقة الجنوبية</span
+                  ><span data-en>Location: Southern Region</span>
+                </p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"
+                    ><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span
+                  >
+                  <img
+                    src="assets/images/image-019-49b2afcf3cbf.svg"
+                    alt="وزارة السياحة"
+                    style="height: 44px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-023-a5b28e52197b.png"
+                  alt="تسوير مواقع أثرية"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>تسوير مواقع أثرية</span><span data-en>Fencing of Archaeological Sites</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: العلا - المدينة المنورة</span><span data-en>Location: AlUla - Madinah Region</span></p>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding-top: 0.75rem;
+                    border-top: 0.5px solid var(--border-soft);
+                  "
+                >
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img
+                    src="assets/images/image-019-49b2afcf3cbf.svg"
+                    alt="وزارة السياحة"
+                    style="height: 44px; width: auto; object-fit: contain; background: transparent"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع الأمن الصناعي والدفاع السلبي</span>
+            <span data-en>Industrial Security & Passive Defense Projects</span>
+          </h3>
+          <div class="works-grid">
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-024-e12787c27bf5.png"
+                  alt="شبك الحماية من الطائرات المسيرة"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>تركيب شبك الحماية من الطائرات المسيرة – الدفاع السلبي بالمحطات</span><span data-en>Installation of Anti-Drone Protection Mesh ? Passive Defense at Stations</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: أملج - الوجه - الليث</span><span data-en>Location: Umluj - Al Wajh - Al Lith</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-025-5cd447da029c.svg" alt="الهيئة السعودية للمياه" style="height: 48px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-026-69d52d0bd217.png"
+                  alt="شبك الحماية من الطائرات المسيرة"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>تركيب شبك الحماية من الطائرات المسيرة – الدفاع السلبي بالمحطات</span><span data-en>Installation of Anti-Drone Protection Mesh ? Passive Defense at Stations</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: القنفذة - فرسان - ضباء</span><span data-en>Location: Al Qunfudhah - Farasan - Duba</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-025-5cd447da029c.svg" alt="الهيئة السعودية للمياه" style="height: 48px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-027-b9a126b004b7.png"
+                  alt="شبك الحماية من الطائرات المسيرة"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>تركيب شبك الحماية من الطائرات المسيرة – الدفاع السلبي بالمحطات</span><span data-en>Installation of Anti-Drone Protection Mesh ? Passive Defense at Stations</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: رابغ - حقل</span><span data-en>Location: Rabigh - Haql</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-025-5cd447da029c.svg" alt="الهيئة السعودية للمياه" style="height: 48px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع التدعيم الإنشائي والتدخل العاجل</span>
+            <span data-en>Structural Reinforcement & Emergency Intervention Projects</span>
+          </h3>
+          <div class="works-grid">
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-028-98339e88e462.png"
+                  alt="أعمال تدعيم متحف قصر خزام"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>أعمال تدعيم متحف قصر خزام</span><span data-en>Structural Reinforcement Works for Khuzam Palace Museum</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: جدة</span><span data-en>Location: Jeddah</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-019-49b2afcf3cbf.svg" alt="وزارة السياحة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-029-68dfdf3274d3.png"
+                  alt="التدعيم الإنشائي لقصر الملك عبدالعزيز"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>التدعيم الإنشائي لقصر الملك عبدالعزيز</span><span data-en>Structural Reinforcement of King Abdulaziz Palace</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: الخرج</span><span data-en>Location: Al-Kharj</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img
+                  src="assets/images/image-030-6d8fcc8926c2.png"
+                  alt="أعمال تدعيم قصر الكاتب"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block"
+                />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>أعمال تدعيم قصر الكاتب</span><span data-en>Structural Reinforcement Works for Al-Kateb Palace</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: الطائف</span><span data-en>Location: Taif</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع المسح والتنقيب الأثري</span>
+            <span data-en>Archaeological Survey & Excavation Projects</span>
+          </h3>
+          <div class="works-grid">
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img src="assets/images/image-031-a3b785a1ab2b.png" alt="مشروع مسح التراث المغمور" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>مشروع مسح التراث المغمور</span><span data-en>Underwater Cultural Heritage Survey Project</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: المنطقة الشرقية - مكة المكرمة - المدينة المنورة - تبوك</span><span data-en>Location: Eastern Region - Makkah - Madinah - Tabuk</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img src="assets/images/image-032-b1ce2c8bca89.png" alt="أعمال التنقيب الأثري في موقع الأخدود الأثري" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>أعمال التنقيب الأثري في موقع الأخدود الأثري</span><span data-en>Archaeological Excavation Works at Al-Ukhdud Archaeological Site</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: منطقة نجران</span><span data-en>Location: Najran Region</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img src="assets/images/image-033-a3c258c924e7.png" alt="مشروع المسح الأثري - المرحلة الأولى" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>مشروع المسح الأثري - المرحلة الأولى</span><span data-en>Archaeological Survey Project - Phase One</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: عدة مواقع (25) موقعًا أثريًا في مختلف مناطق المملكة</span><span data-en>Location: 25 archaeological sites across various regions of the Kingdom</span></p>
+                              <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+                                              </div>
+        </div>
+
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع إزالة التشوهات البصرية</span>
+            <span data-en>Visual Distortion Removal Projects</span>
+          </h3>
+          <div class="works-grid">
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img src="assets/images/image-034-f8eb7cb8a924.png" alt="إزالة التشوّهات البصرية في موقع الفنون الصخرية التراثي" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>إزالة التشوّهات البصرية في موقع الفنون الصخرية التراثي</span><span data-en>Removal of Visual Distortions at the Rock Art Heritage Site</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: منطقة حائل</span><span data-en>Location: Hail Region</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img src="assets/images/image-035-54455fb273f7.png" alt="إزالة التشوّهات البصرية" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>إزالة التشوّهات البصرية</span><span data-en>Removal of Visual Distortions</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: منطقة تبوك</span><span data-en>Location: Tabuk Region</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+            <div class="work-card">
+              <div class="work-thumb project-thumb-img" style="height: 200px">
+                <img src="assets/images/image-036-bd5d83d1d444.png" alt="إزالة التشوّهات البصرية" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+              </div>
+              <div class="work-body">
+                <h3><span data-ar>إزالة التشوّهات البصرية</span><span data-en>Removal of Visual Distortions</span></h3>
+                <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: الأفلاج</span><span data-en>Location: Al-Aflaj</span></p>
+                <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                  <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-category">
+          <h3 class="work-category-title">
+            <span data-ar>مشاريع الأبحاث العلمية</span>
+            <span data-en>Scientific Research Projects</span>
+          </h3>
+          <div class="works-grid">
+            <!-- أضف بطاقات المشاريع هنا -->
+          
+          <div class="work-card">
+                        <div class="work-thumb project-thumb-img" style="height: 200px">
+                          <img src="assets/images/image-037-58d9190c0c8c.png" alt="المسح الأثري وتوثيق قرية الفاو بالتعاون مع مدينة الملك عبدالعزيز للعلوم والتقنية (KACST)" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+                        </div>
+                        <div class="work-body">
+                          <h3><span data-ar>المسح الأثري وتوثيق قرية الفاو بالتعاون مع مدينة الملك عبدالعزيز للعلوم والتقنية (KACST)</span><span data-en>Archaeological Survey and Documentation of Al-Faw Village in Cooperation with KACST</span></h3>
+                          <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: الفاو</span><span data-en>Location: Al-Faw</span></p>
+                          <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                            <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                            <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                          </div>
+                        </div>
+                      </div>
+          <div class="work-card">
+                        <div class="work-thumb project-thumb-img" style="height: 200px">
+                          <img src="assets/images/image-038-1a03e5c361ca.png" alt="مشاريع المسح الأثري باستخدام تقنية رادار اختراق الأرض (GPR)" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+                        </div>
+                        <div class="work-body">
+                          <h3><span data-ar>مشاريع المسح الأثري باستخدام تقنية رادار اختراق الأرض (GPR)</span><span data-en>Archaeological Survey Projects Using Ground-Penetrating Radar (GPR)</span></h3>
+                          <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: 25 موقعًا أثريًا</span><span data-en>Location: 25 Archaeological Sites</span></p>
+                        </div>
+              <div style="display: flex; align-items: center; gap: 10px; margin-top: 0.75rem">
+                <span data-ar>الجهة المالكة:</span><span data-en>Owner:</span>
+                <img src="assets/images/image-017-25ebcb93db00.svg" alt="Ministry of Culture" style="height: 34px; width: auto; object-fit: contain; background: transparent" />
+              </div>
+            </div>
+          <div class="work-card">
+                        <div class="work-thumb project-thumb-img" style="height: 200px">
+                          <img src="assets/images/image-039-c925b323922e.jpg" alt="مشروع تحديث وتوثيق 2,500 موقع ثقافي في سجل الآثار" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+                        </div>
+                        <div class="work-body">
+                          <h3><span data-ar>مشروع تحديث وتوثيق 2,500 موقع ثقافي في سجل الآثار</span><span data-en>Updating and Documenting 2,500 Cultural Sites in the Antiquities Register</span></h3>
+                          <p style="margin-bottom: 0.75rem"><span data-ar>الموقع: 2,500 موقع ثقافي</span><span data-en>Location: 2,500 Cultural Sites</span></p>
+                          <div style="display: flex; align-items: center; gap: 10px; padding-top: 0.75rem; border-top: 0.5px solid var(--border-soft)">
+                            <span style="font-size: 11px; color: var(--text-muted); font-weight: 600"><span data-ar>الجهة المالكة:</span><span data-en>Owner:</span></span>
+                            <img src="assets/images/image-017-25ebcb93db00.svg" alt="وزارة الثقافة" style="height: 44px; width: auto; object-fit: contain; background: transparent" />
+                          </div>
+                        </div>
+                      </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ TEAM ═══════════════ -->
+    <section id="team">
+      <div class="section-label"><span data-ar>فريقنا</span><span data-en>Our Team</span></div>
+      <h2 class="section-title">
+        <span data-ar>القيادة والكوادر</span>
+        <span data-en>Leadership & Specialists</span>
+      </h2>
+      <p class="section-sub">
+        <span data-ar
+          >يضم فريقنا أكثر من 700 عضو من المهندسين والأثريين ومتخصصي التراث والعمارة والتصميم
+          والتخصصات ذات الصلة.</span
+        >
+        <span data-en
+          >Our team of 700+ members spans engineers, archaeologists, heritage specialists,
+          architects, designers, and related disciplines.</span
+        >
+      </p>
+
+      <!-- الإدارة العليا / Senior Leadership -->
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="عقاب العتيبي"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>عقاب العتيبي</span><span data-en>Oqab Al-Otaibi</span></h3>
+          <div class="team-role">
+            <span data-ar>الرئيس التنفيذي</span><span data-en>Chief Executive Officer</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="سعود العتيبي"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>سعود العتيبي</span><span data-en>Saud Al-Otaibi</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير الإدارة القانونية</span><span data-en>Legal Affairs Director</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-041-23bb03cf2ea2.svg"
+              alt="أثير الشرهان"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>أثير الشرهان</span><span data-en>Atheer Al-Sharhan</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير التواصل والتسويق</span
+            ><span data-en>Communications & Marketing</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="سعد الحارثي"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>سعد الحارثي</span><span data-en>Saad Al-Harthi</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير إدارة الموارد البشرية</span><span data-en>HR Director</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="د. مصطفى رسلان"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>د. مصطفى رسلان</span><span data-en>Dr. Mustafa Raslan</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير الإدارة المالية</span><span data-en>Finance Director</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="د. عبدالله السعود"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>د. عبدالله السعود</span><span data-en>Dr. Abdullah Al-Saud</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير إدارة الآثار</span><span data-en>Antiquities Director</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-041-23bb03cf2ea2.svg"
+              alt="م. لمياء الحجيلي"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>م. لمياء الحجيلي</span><span data-en>Eng. Lamyaa Al-Hujaili</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير إدارة تطوير الأعمال والشراكات</span
+            ><span data-en>Business Development & Partnerships Director</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="م. أحمد عبدالباسط"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>م. أحمد عبدالباسط</span><span data-en>Eng. Ahmed Abdelbaset</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير الإدارة الهندسية</span><span data-en>Engineering Director</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="م. طاهر الجندي"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>م. طاهر الجندي</span><span data-en>Eng. Taher Al-Jundi</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير إدارة المشاريع</span><span data-en>Project Management Director</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <img
+              src="assets/images/image-040-1ab584e7056c.svg"
+              alt="م. أحمد كامل"
+              style="width: 56px; height: 56px; object-fit: contain; display: block"
+            />
+          </div>
+          <h3><span data-ar>م. أحمد كامل</span><span data-en>Eng. Ahmed Kamel</span></h3>
+          <div class="team-role">
+            <span data-ar>مدير إدارة التصميم والعمارة</span
+            ><span data-en>Design & Architecture Director</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- فريق التصميم والعمارة -->
+      <div class="team-divider"></div>
+      <p class="team-sub-title">
+        <span data-ar>⚙ فريق إدارة التصميم والعمارة</span>
+        <span data-en>⚙ Design & Architecture Team</span>
+      </p>
+      <div class="team-sub-grid">
+        <div class="team-sub-card">
+          <h4><span data-ar>م. مريم العنزي</span><span data-en>Eng. Maryam Al-Anazi</span></h4>
+          <div class="sub-role">
+            <span data-ar>مهندسة عمارة داخلية - نائب مدير إدارة تطوير الأعمال والشراكات</span
+            ><span data-en
+              >Interior Architecture Engineer - Deputy Director of Business Development &
+              Partnerships</span
+            >
+          </div>
+        </div>
+        <div class="team-sub-card">
+          <h4><span data-ar>م. نوف الغفيلي</span><span data-en>Eng. Nawf Al-Ghufaili</span></h4>
+          <div class="sub-role">
+            <span data-ar>مهندسة معمارية</span><span data-en>Architect</span>
+          </div>
+        </div>
+        <div class="team-sub-card">
+          <h4><span data-ar>م. شادن الصالح</span><span data-en>Eng. Shadin Al-Saleh</span></h4>
+          <div class="sub-role">
+            <span data-ar>مهندسة معمارية</span><span data-en>Architect</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ WHY US ═══════════════ -->
+    <section id="why">
+      <div class="section-label">
+        <span data-ar>لماذا نحن</span><span data-en>Why Choose Us</span>
+      </div>
+      <h2 class="section-title">
+        <span data-ar>ما يميزنا عن الآخرين</span>
+        <span data-en>What Sets Us Apart</span>
+      </h2>
+      <p class="section-sub">
+        <span data-ar
+          >نجمع بين الخبرة الواسعة والتقنيات الحديثة لنقدم لك نتائج تتجاوز التوقعات.</span
+        >
+        <span data-en
+          >We combine deep expertise with modern technologies to deliver results that exceed
+          expectations.</span
+        >
+      </p>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-num">01</div>
+          <h3>
+            <span data-ar>+21 عاماً من الخبرة</span><span data-en>21+ Years of Experience</span>
+          </h3>
+          <p>
+            <span data-ar
+              >أكثر من 21 عاماً من التميز في السوق السعودي، مع تنفيذ 160+ مشروعاً بقيمة تتجاوز 1.07
+              مليار ريال.</span
+            ><span data-en
+              >Over 21 years of excellence in the Saudi market, executing 160+ projects worth over
+              1.07 billion SAR.</span
+            >
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">02</div>
+          <h3>
+            <span data-ar>فريق يتجاوز 700 متخصص</span><span data-en>Team of 700+ Specialists</span>
+          </h3>
+          <p>
+            <span data-ar
+              >فريق يضم أكثر من 700 عضو من المهندسين والأثريين ومتخصصي التراث والعمارة
+              والتصميم.</span
+            ><span data-en
+              >A team of over 700 members spanning engineers, archaeologists, heritage specialists,
+              architects, and designers.</span
+            >
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">03</div>
+          <h3>
+            <span data-ar>8 مواقع تراث عالمي يونسكو</span
+            ><span data-en>8 UNESCO World Heritage Sites</span>
+          </h3>
+          <p>
+            <span data-ar
+              >خبرة موثّقة في 8 مواقع تراث عالمي معتمدة من اليونسكو ومشاريع مع أكثر من 20 جهة حكومية
+              سعودية.</span
+            ><span data-en
+              >Documented expertise in 8 UNESCO World Heritage Sites and projects with over 20 Saudi
+              government entities.</span
+            >
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">04</div>
+          <h3>
+            <span data-ar>تغطية لجميع مناطق المملكة</span><span data-en>Kingdom-Wide Coverage</span>
+          </h3>
+          <p>
+            <span data-ar
+              >تغطية شاملة تمتد إلى 335 موقع نشط عبر جميع مناطق المملكة العربية السعودية من الشمال
+              إلى الجنوب.</span
+            ><span data-en
+              >Comprehensive coverage extending to 335 active sites across all regions of Saudi
+              Arabia from north to south.</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CONTACT ═══════════════ -->
+    <section id="contact">
+      <div class="section-label">
+        <span data-ar>تواصل معنا</span><span data-en>Contact Us</span>
+      </div>
+      <h2 class="section-title">
+        <span data-ar>نحن هنا لخدمتكم</span>
+        <span data-en>We're Here to Serve You</span>
+      </h2>
+      <p class="section-sub">
+        <span data-ar>للاستفسارات والمشاريع، تواصل معنا وسيرد عليك فريقنا في أقرب وقت.</span>
+        <span data-en
+          >For inquiries and projects, reach out and our team will respond at the earliest
+          opportunity.</span
+        >
+      </p>
+      <div class="contact-grid">
+        <div>
+          <ul class="contact-info-list">
+            <li>
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <div class="ci-label"><span data-ar>العنوان</span><span data-en>Address</span></div>
+                <div class="ci-val">
+                  <span data-ar>مبنى رقم 2484، شارع أبي سفيان بن حرب، حي النزهة، الرياض 12479</span
+                  ><span data-en
+                    >Building No. 2484, Abi Sufyan Ibn Harb, Al Nuzha District, Riyadh 12479</span
+                  >
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.35 1.84.57 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="ci-label"><span data-ar>هاتف</span><span data-en>Phone</span></div>
+                <div class="ci-val" dir="ltr">+966 54 500 0093 | +966 11 276 6615</div>
+              </div>
+            </li>
+            <li>
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <div class="ci-label">
+                  <span data-ar>البريد الإلكتروني</span><span data-en>Email</span>
+                </div>
+                <div class="ci-val">Info@menjaz.com</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label><span data-ar>الاسم الكامل</span><span data-en>Full Name</span></label>
+                <input type="text" placeholder="" />
+              </div>
+              <div class="form-group">
+                <label><span data-ar>رقم الجوال</span><span data-en>Phone Number</span></label>
+                <input type="tel" placeholder="+966" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label
+                ><span data-ar>البريد الإلكتروني</span><span data-en>Email Address</span></label
+              >
+              <input type="email" placeholder="" />
+            </div>
+            <div class="form-group">
+              <label><span data-ar>نوع الخدمة</span><span data-en>Service Type</span></label>
+              <select>
+                <option value="" disabled selected>اختر الخدمة</option>
+                <option>
+                  <span data-ar>المقاولات العامة</span><span data-en>General Contracting</span>
+                </option>
+                <option>
+                  <span data-ar>الأعمال الكهربائية</span><span data-en>Electrical Works</span>
+                </option>
+                <option>
+                  <span data-ar>أعمال التشطيب</span><span data-en>Finishing Works</span>
+                </option>
+                <option><span data-ar>أنظمة HVAC</span><span data-en>HVAC Systems</span></option>
+                <option>
+                  <span data-ar>تقنية المعلومات</span><span data-en>Information Technology</span>
+                </option>
+                <option>
+                  <span data-ar>الصيانة والتشغيل</span><span data-en>Maintenance & Operations</span>
+                </option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label><span data-ar>تفاصيل المشروع</span><span data-en>Project Details</span></label>
+              <textarea placeholder=""></textarea>
+            </div>
+            <button class="btn-primary" style="width: 100%; justify-content: center; padding: 13px">
+              <span data-ar>إرسال الطلب</span>
+              <span data-en>Send Request</span>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <!-- White version logo -->
+          <img
+            src="assets/images/image-042-c6c11dc0870b.png"
+            alt="Majal Al Enjaz"
+            class="logo-svg-white"
+            style="height: 52px; width: auto; object-fit: contain; background: transparent"
+          />
+          <p>
+            <span data-ar
+              >شركة سعودية رائدة في الأعمال الإنشائية والخدمية المتقدمة، نسعى دائماً إلى تجاوز
+              توقعات عملائنا.</span
+            >
+            <span data-en
+              >A leading Saudi company in advanced construction and service works, always striving
+              to exceed our clients' expectations.</span
+            >
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4><span data-ar>روابط سريعة</span><span data-en>Quick Links</span></h4>
+          <ul>
+            <li>
+              <a href="#about"><span data-ar>من نحن</span><span data-en>About Us</span></a>
+            </li>
+            <li>
+              <a href="#services"><span data-ar>خدماتنا</span><span data-en>Services</span></a>
+            </li>
+            <li>
+              <a href="#projects"><span data-ar>مشاريعنا</span><span data-en>Projects</span></a>
+            </li>
+            <li>
+              <a href="#team"><span data-ar>فريقنا</span><span data-en>Team</span></a>
+            </li>
+            <li>
+              <a href="#contact"><span data-ar>تواصل معنا</span><span data-en>Contact</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4><span data-ar>خدماتنا</span><span data-en>Services</span></h4>
+          <ul>
+            <li>
+              <a href="#services"
+                ><span data-ar>المقاولات العامة</span><span data-en>General Contracting</span></a
+              >
+            </li>
+            <li>
+              <a href="#services"
+                ><span data-ar>الأعمال الكهربائية</span><span data-en>Electrical Works</span></a
+              >
+            </li>
+            <li>
+              <a href="#services"
+                ><span data-ar>أعمال التشطيب</span><span data-en>Finishing Works</span></a
+              >
+            </li>
+            <li>
+              <a href="#services"
+                ><span data-ar>الصيانة والتشغيل</span><span data-en>Maintenance</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>
+          <span data-ar>© 2026 شركة مجال الإنجاز للأعمال المتقدمة. جميع الحقوق محفوظة.</span>
+          <span data-en>© 2026 Majal Al Enjaz Advanced Works Co. All rights reserved.</span>
+        </span>
+        <span>
+          <span data-ar>السجل التجاري: 1010208611</span>
+          <span data-en>CR: 1010208611</span>
+        </span>
+      </div>
+    </footer>
+
+    <script src="assets/script-01.js"></script>
+  </body>
+</html>
